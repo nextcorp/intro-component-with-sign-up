@@ -40,6 +40,7 @@ input[type="submit"] {
     color: #fff;
     background: hsl(154, 59%, 51%);
     border-radius: 8px;
+    border: none;
 }
 
 input {
@@ -75,11 +76,14 @@ input {
 }
 
 .field:focus {
-    outline: 2px solid hsl(248, 32%, 49%);
+    outline: 2px solid hsl(249, 10%, 26%);
 }
 
 .offer {
     margin-bottom: 1.5rem;
+    background: hsl(248, 32%, 49%);
+    border-radius: 8px;
+    color: #fff;
 }
 
 .offer p {
