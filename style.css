@@ -7,6 +7,9 @@ body {
     width: 100vw;
     height: 100vh;
     align-items: center;
+}
+
+body, main .hero {
     justify-content: center;
 }
 
@@ -14,7 +17,7 @@ main {
     max-width: 1200px;
 }
 
-body, main, form {
+body, main, form, main .hero {
     display: flex;
 }
 
@@ -26,7 +29,7 @@ main > * {
     text-align: center;
 }
 
-form {
+form, main .hero {
     flex-direction: column;
 }
 
@@ -47,8 +50,13 @@ input {
 .title {
     font-size: 3rem;
     line-height: 1.2;
+    margin-bottom: 1.5rem;
 }
 
 .title + p {
     font-size: 1.1rem;
+}
+
+.field {
+    margin-block: 0.7rem;
 }
