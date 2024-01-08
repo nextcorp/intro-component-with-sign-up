@@ -15,6 +15,7 @@ body, main .hero {
 
 main {
     max-width: 1100px;
+    gap: 1rem;
 }
 
 body, main, form, main .hero {
@@ -94,7 +95,7 @@ input {
 
 .fill {
     background: #fff;
-    padding-block: 1.7rem;
-    padding-inline: 1.7rem;
+    padding-block: 2.5rem;
+    padding-inline: 2.5rem;
     border-radius: 8px;
 }
