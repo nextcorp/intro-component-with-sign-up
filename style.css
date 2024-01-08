@@ -29,3 +29,26 @@ main > * {
 form {
     flex-direction: column;
 }
+
+input[type="submit"] {
+    text-transform: uppercase;
+}
+
+input {
+    font-size: 1rem;
+    padding-block: 0.7rem;
+    padding-left: 1.5rem;
+}
+
+.notice p {
+    font-size: 0.7rem;
+}
+
+.title {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.title + p {
+    font-size: 1.1rem;
+}
