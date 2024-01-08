@@ -35,12 +35,21 @@ form, main .hero {
 
 input[type="submit"] {
     text-transform: uppercase;
+    margin-top: 0.6rem;
+    font-weight: 600;
+    color: #fff;
+    background: hsl(154, 59%, 51%);
+    border-radius: 8px;
 }
 
 input {
     font-size: 1rem;
     padding-block: 0.7rem;
     padding-left: 1.5rem;
+}
+
+.notice {
+    margin-top: 0.7rem;
 }
 
 .notice p {
@@ -59,6 +68,14 @@ input {
 
 .field {
     margin-block: 0.7rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.field:focus {
+    outline: 2px solid hsl(248, 32%, 49%);
 }
 
 .offer {
