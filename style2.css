@@ -1,6 +1,6 @@
 @media screen and (max-width: 650px) {
     body {
-        background: url("images/bg-intro-mobile.png");
+        background: url("images/bg-intro-mobile.png") hsl(0, 100%, 74%);
     }
 
     main {
@@ -10,6 +10,6 @@
 
 @media screen and (min-width: 651px) {
     body {
-        background: url("images/bg-intro-desktop.png");
+        background: url("images/bg-intro-desktop.png") hsl(0, 100%, 74%);
     }
 }

@@ -45,7 +45,7 @@ input[type="submit"] {
 
 input {
     font-size: 1rem;
-    padding-block: 0.7rem;
+    padding-block: 0.9rem;
     padding-left: 1.5rem;
 }
 
@@ -61,10 +61,12 @@ input {
     font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 1.5rem;
+    color: #fff;
 }
 
 .title + p {
     font-size: 1rem;
+    color: #fff;
 }
 
 .field {
@@ -88,4 +90,11 @@ input {
 
 .offer p {
     padding-block: 1.2rem;
+}
+
+.fill {
+    background: #fff;
+    padding-block: 1.7rem;
+    padding-inline: 1.7rem;
+    border-radius: 8px;
 }
