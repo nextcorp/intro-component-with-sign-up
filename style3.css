@@ -1,0 +1,64 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.offer p, .notice p {
+    text-align: center;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background: hsl(154, 59%, 51%);
+    border-radius: 8px;
+    border: none;
+}
+
+input {
+    font-size: 1rem;
+}
+
+.notice p {
+    font-size: 0.7rem;
+}
+
+.title h1 {
+    line-height: 1.2;
+    color: #fff;
+}
+
+.title p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.field {
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.field:focus {
+    outline: 2px solid hsl(249, 10%, 26%);
+}
+
+.offer {
+    background: hsl(248, 32%, 49%);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.fill {
+    background: #fff;
+    border-radius: 8px;
+}
+
+.offer, .fill, input[type="submit"] {
+    box-shadow: 0px 8px 0px 0px rgba(0,0,0, 0.3);
+}
