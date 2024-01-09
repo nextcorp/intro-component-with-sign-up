@@ -47,10 +47,12 @@ input {
     font-size: 0.9rem;
     border-radius: 8px;
     border: 1px solid #ccc;
+    caret-color: hsl(248, 32%, 49%);
+    color: hsl(249, 10%, 26%);
 }
 
 .field:focus {
-    outline: 2px solid hsl(249, 10%, 26%);
+    outline: 1px solid hsl(249, 10%, 26%);
 }
 
 .offer {
