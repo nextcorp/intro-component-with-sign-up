@@ -1,3 +1,7 @@
+body {
+    background: url("images/bg-intro-mobile.png") hsl(0, 100%, 74%);
+}
+
 main {
     margin-bottom: 4rem;
 }
@@ -15,6 +19,10 @@ main {
     margin-top: 2rem;
 }
 
+.title h1, .title p {
+    text-align: center;
+}
+
 .offer p {
     text-align: center;
     padding-inline: 4rem;
@@ -23,7 +31,7 @@ main {
 
 .fill {
     margin-top: 2rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
 }
 
 .field {
@@ -40,4 +48,5 @@ input[type="submit"] {
 
 .notice {
     margin-top: 1rem;
+    padding-inline: 0.5rem;
 }

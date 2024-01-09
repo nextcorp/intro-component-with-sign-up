@@ -65,11 +65,11 @@ input {
 }
 
 .offer, .fill {
-    box-shadow: 0px 8px 0px 0px rgba(0,0,0, 0.3);
+    box-shadow: 0px 8px 0px 0px rgba(0,0,0, 0.1);
 }
 
 input[type="submit"] {
-    box-shadow: 0px 4px 0px 0px rgba(0,0,0, 0.3);
+    box-shadow: 0px 4px 0px 0px hsla(154, 59%, 51%, 0.7);
 }
 
 .field, input[type="submit"] {
