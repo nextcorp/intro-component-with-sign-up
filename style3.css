@@ -25,6 +25,11 @@ input {
 
 .notice p {
     font-size: 0.7rem;
+    color: hsl(246, 25%, 77%);
+}
+
+.notice strong {
+    color: hsl(0, 100%, 74%);
 }
 
 .title h1 {
@@ -59,6 +64,14 @@ input {
     border-radius: 8px;
 }
 
-.offer, .fill, input[type="submit"] {
+.offer, .fill {
     box-shadow: 0px 8px 0px 0px rgba(0,0,0, 0.3);
+}
+
+input[type="submit"] {
+    box-shadow: 0px 4px 0px 0px rgba(0,0,0, 0.3);
+}
+
+.field, input[type="submit"] {
+    width: 100%;
 }
