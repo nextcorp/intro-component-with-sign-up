@@ -58,6 +58,11 @@
         padding-block: 1rem;
     }
 
+    input[type="submit"]:hover {
+        background: hsl(154, 88%, 55%);
+        cursor: pointer;
+    }
+
     .notice {
         margin-top: 1rem;
     }
