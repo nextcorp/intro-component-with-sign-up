@@ -8,8 +8,21 @@
     }
 }
 
+@media screen and (max-width: 1100px) {
+    main {
+        padding-inline: 1rem;
+    }
+}
+
 @media screen and (min-width: 651px) {
     body {
         background: url("images/bg-intro-desktop.png") hsl(0, 100%, 74%);
+    }
+}
+
+@media screen and (max-height: 560px) {
+    body {
+        display: block;
+        align-items: unset;
     }
 }
