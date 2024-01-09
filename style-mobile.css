@@ -1,52 +1,54 @@
-body {
-    background: url("images/bg-intro-mobile.png") hsl(0, 100%, 74%);
-}
-
-main {
-    margin-bottom: 4rem;
-}
-
-.title {
-    margin-block: 4rem;
-}
-
-.title h1 {
-    font-size: 2rem;
-}
-
-.title p {
-    padding-inline: 0.5rem;
-    margin-top: 2rem;
-}
-
-.title h1, .title p {
-    text-align: center;
-}
-
-.offer p {
-    text-align: center;
-    padding-inline: 4rem;
-    padding-block: 1rem;
-}
-
-.fill {
-    margin-top: 2rem;
-    padding: 1rem 1.5rem;
-}
-
-.field {
-    padding-block: 1rem;
-    padding-inline: 1rem;
-    margin-block: 0.7rem; 
-}
-
-input[type="submit"] {
-    padding-block: 1rem;
-    margin-top: 0.7rem;
-    font-weight: 600;
-}
-
-.notice {
-    margin-top: 1rem;
-    padding-inline: 0.5rem;
+@media screen and (max-width: 900px) {
+    body {
+        background: url("images/bg-intro-mobile.png") hsl(0, 100%, 74%);
+    }
+    
+    main {
+        margin-bottom: 4rem;
+    }
+    
+    .title {
+        margin-block: 4rem;
+    }
+    
+    .title h1 {
+        font-size: 2rem;
+    }
+    
+    .title p {
+        padding-inline: 0.5rem;
+        margin-top: 2rem;
+    }
+    
+    .title h1, .title p {
+        text-align: center;
+    }
+    
+    .offer p {
+        text-align: center;
+        padding-inline: 4rem;
+        padding-block: 1rem;
+    }
+    
+    .fill {
+        margin-top: 2rem;
+        padding: 1rem 1.5rem;
+    }
+    
+    .field {
+        padding-block: 1rem;
+        padding-inline: 1rem;
+        margin-block: 0.7rem; 
+    }
+    
+    input[type="submit"] {
+        padding-block: 1rem;
+        margin-top: 0.7rem;
+        font-weight: 600;
+    }
+    
+    .notice {
+        margin-top: 1rem;
+        padding-inline: 0.5rem;
+    }
 }
