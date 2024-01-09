@@ -1,5 +1,62 @@
 @media screen and (min-width: 901px) {
     body {
         background: url("images/bg-intro-desktop.png") hsl(0, 100%, 74%);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main {
+        display: flex;
+        max-width: 1100px;
+        margin-inline: auto;
+        gap: 2rem;
+    }
+
+    main > * {
+        flex: 1;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .title h1 {
+        font-size: 3rem;
+    }
+
+    .title p {
+        margin-top: 2rem;
+    }
+
+    .offer p {
+        padding-block: 1.5rem;
+        text-align: center;
+    }
+
+    .fill {
+        margin-top: 1rem;
+    }
+
+    .field {
+        padding-block: 1rem;
+        padding-inline: 1.5rem;
+        margin-block: 0.7rem;
+    }
+
+    .fill {
+        padding: 2.5rem;
+    }
+
+    input[type="submit"] {
+        margin-top: 1rem;
+        padding-block: 0.7rem;
+    }
+
+    .notice {
+        margin-top: 1rem;
     }
 }
