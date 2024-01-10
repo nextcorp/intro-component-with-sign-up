@@ -97,10 +97,11 @@ input[type="submit"] {
     color: hsl(0, 100%, 74%);
     margin-top: -0.4rem;
     margin-bottom: 0.2rem;
+    font-style: italic;
 }
 
 .err-field {
-    outline: 1px solid hsl(0, 100%, 74%);
+    border: 2px solid hsl(0, 100%, 74%);
 }
 
 .hidden {
