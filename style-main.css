@@ -90,6 +90,19 @@ input[type="submit"] {
     user-select: none;
 }
 
+.err-msg {
+    text-align: right;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: hsl(0, 100%, 74%);
+    margin-top: -0.4rem;
+    margin-bottom: 0.2rem;
+}
+
+.err-field {
+    outline: 1px solid hsl(0, 100%, 74%);
+}
+
 .hidden {
     display: none;
 }
