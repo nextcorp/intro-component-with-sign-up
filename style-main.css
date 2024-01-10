@@ -1,0 +1,114 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.offer p, .notice p {
+    text-align: center;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background: hsl(154, 59%, 51%);
+    border-radius: 8px;
+    border: none;
+}
+
+input {
+    font-size: 1rem;
+}
+
+.notice p {
+    font-size: 0.7rem;
+    color: hsl(246, 25%, 77%);
+}
+
+.notice strong {
+    color: hsl(0, 100%, 74%);
+}
+
+.title h1 {
+    line-height: 1.2;
+    color: #fff;
+}
+
+.title p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.field {
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    caret-color: hsl(248, 32%, 49%);
+    color: hsl(249, 10%, 26%);
+}
+
+.field:focus {
+    outline: 1px solid hsl(249, 10%, 26%);
+}
+
+.offer {
+    background: hsl(248, 32%, 49%);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.fill {
+    background: #fff;
+    border-radius: 8px;
+}
+
+.offer, .fill {
+    box-shadow: 0px 8px 0px 0px rgba(0,0,0, 0.1);
+}
+
+input[type="submit"] {
+    box-shadow: 0px 4px 0px 0px hsla(154, 59%, 51%, 0.7);
+}
+
+.field, input[type="submit"] {
+    width: 100%;
+}
+
+.err-icon-container {
+    position: relative;
+}
+
+.err-icon {
+    position: absolute;
+    top: -51px;
+    right: 20px;
+    margin-left: auto;
+    user-select: none;
+}
+
+.err-msg {
+    text-align: right;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: hsl(0, 100%, 74%);
+    margin-top: -0.4rem;
+    margin-bottom: 0.2rem;
+}
+
+.err-field {
+    outline: 1px solid hsl(0, 100%, 74%);
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    main {
+        padding-inline: 2rem;
+    }
+}
