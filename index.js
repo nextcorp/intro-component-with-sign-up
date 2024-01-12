@@ -21,10 +21,17 @@ function clearError(where) {
     errMsg.classList.add("hidden")
 }
 
+// browser prevents from validating some wrong email patterns
+// need to check email validity through click event and not submit
+
+function emailValidate() {
+    const reg = new RegExp(/^[^.\s@]+(\.[^.\s@]+)*@[^.\s@]+(\.[^.\s@]+)+$/)
+    // const reg2 = new RegExp(/^\S+@\S+\.\S+$/)
+    if (!reg.test(inp_email.value) || (!inp_email.checkValidity())) showError(inp_email)
+}
+
 function formHandler(e) {
     e.preventDefault()
-
-    const reg = new RegExp(/^[^.\s@]+(\.[^.\s@]+)*@[^.\s@]+(\.[^.\s@]+)+$/)
 
     clearError(inp_firstName)
     clearError(inp_lastName)
@@ -33,7 +40,6 @@ function formHandler(e) {
 
     if (inp_firstName.value.length === 0) showError(inp_firstName)
     if (inp_lastName.value.length === 0) showError(inp_lastName)
-    if (!reg.test(inp_email.value)) showError(inp_email)
     if (inp_password.value.length === 0) showError(inp_password)
 }
 
@@ -43,3 +49,4 @@ clearError(inp_email)
 clearError(inp_password)
 
 form.addEventListener("submit", formHandler)
+form.querySelector(`input[type="submit"]`).addEventListener("click", emailValidate)
