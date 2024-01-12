@@ -5,11 +5,6 @@ const inp_lastName = form.querySelector(`input[name="last-name"]`)
 const inp_email = form.querySelector(`input[name="email"]`)
 const inp_password = form.querySelector(`input[name="password"]`)
 
-// todo: if input is inalid, highlight element as invalid
-// input:focus border should not be visible when error occured
-// error icons and messages should be visible too
-// everything should be reset after success submit or page reload
-
 function showError(where) {
     where.classList.add("err-field")
     const errIcon = form.querySelector(`input[name="${where.name}"] + .err-icon-container > .err-icon`)
