@@ -101,7 +101,8 @@ input[type="submit"] {
 }
 
 .err-field {
-    border: 2px solid hsl(0, 100%, 74%);
+    outline: 2px solid hsl(0, 100%, 74%);
+    color: hsl(0, 100%, 74%);
 }
 
 .hidden {
